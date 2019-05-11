@@ -5,6 +5,7 @@ gem 'sinatra', '~> 2.0', '>= 2.0.4', require: 'sinatra/base'
 gem 'eucalypt', '0.7.1'
 gem 'rake', '~> 12.3'
 gem 'thin', '~> 1.7'
+gem 'shotgun'
 
 # IRB is not bundled in Ruby >= 2.6
 if Gem::Version.new(RUBY_VERSION) >= Gem::Version.new('2.6')
